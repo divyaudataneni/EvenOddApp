@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.back-cont {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.container {
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.button {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
+.des {
+  font-size: 12px;
+  font-weight: 400;
+}
